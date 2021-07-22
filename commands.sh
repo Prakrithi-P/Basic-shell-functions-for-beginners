@@ -31,7 +31,7 @@ sort -u -k 1 ip > op
 sort -rg -t $'\t' -k3,3 ip > op
 
 #To insert line in 1st line of file
-sed -i '1i\first_line_text’ ip
+sed -i '1i\first_line_text' ip
 
 #To delete 2nd and 3rd row in a file
 sed '2,3d' ip > op
